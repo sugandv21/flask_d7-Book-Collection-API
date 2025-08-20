@@ -85,4 +85,5 @@ api.add_resource(BookListResource, "/books", endpoint="books")
 api.add_resource(BookResource, "/books/<int:id>", endpoint="book")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
